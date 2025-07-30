@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val message = findViewById<TextView>(R.id.messageText)
-        message.text = "Приложение MAX было заблокировано по причине следящих модулей."
+        message.text = "Приложение MAX было заблокировано антивирусом DR.WEB по причине следящих модулей."
 
         findViewById<Button>(R.id.detailsButton).setOnClickListener {
             val intent = Intent(this, DetailsActivity::class.java)
