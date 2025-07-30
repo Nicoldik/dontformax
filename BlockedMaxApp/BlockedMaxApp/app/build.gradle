@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace "com.max.messenger.freeapp.maxmessenger"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.max.messenger.freeapp.maxmessenger"
+        minSdk 21
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildFeatures {
+        viewBinding false
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.10"
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+}
