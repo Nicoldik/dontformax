@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "EDGEmessage",
+    "slug": "edgemessage",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.edgemessage.app",
+      "minSdkVersion": 30
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 36,
+            "targetSdkVersion": 36,
+            "buildToolsVersion": "36.0.0"
+          }
+        }
+      ]
+    ]
+  }
+}
